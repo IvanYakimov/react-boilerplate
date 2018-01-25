@@ -1,0 +1,30 @@
+@import './_settings.scss';
+
+* {
+    font-family: $brand-family;
+    color: $brand-color;
+    font-size: $brand-size;
+    font-weight: $brand-weight;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 90%;
+}
+
+body {
+    background-image: url('https://drivenlocal.com/wp-content/uploads/2015/10/Material-design.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    margin: 5% 5%;
+    padding: 2% 5%;
+    background: $back-color;
+    box-shadow: 4x 4x 8px $brand-color;
+}
